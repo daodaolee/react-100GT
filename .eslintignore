@@ -1,1 +1,4 @@
 *.css
+*.less
+
+react-app-env.d.ts

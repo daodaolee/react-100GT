@@ -4,8 +4,7 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'plugin:react/recommended',
-    'standard'
+    'plugin:react/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,5 +19,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    indent: ['off'],
+    '@typescript-eslint/indent': ['error', 2]
   }
 }
