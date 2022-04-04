@@ -14,9 +14,6 @@ function Home () {
           mode="inline"
           theme="dark"
         >
-          <Menu.Item key="1">
-            Option 1
-          </Menu.Item>
           {
             Nav.map((item, index) => 
               <Menu.Item key={index}  onClick={() => navigate(`/${item.link}`)}>
